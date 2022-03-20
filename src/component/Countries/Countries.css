@@ -1,0 +1,38 @@
+.HeadName{
+    color: crimson;
+    font-size: 40px;
+    background-color: beige;
+    margin: 2px;
+    padding: 2px;
+}
+
+.Country-component{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5rem;
+    justify-items: center;
+    
+}
+h6, h5, img{
+ margin: 10px;
+}
+
+
+.Country-div{
+   color: black;
+    background-color:aqua;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+
+
+.Country-div span{
+    color:crimson;
+}
+.Country-div img {
+    width: 50%;
+}
